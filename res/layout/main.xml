@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/zoom.view.flow"
+     android:id="@+id/viewflowfl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#e8e8e8" >
+
+    <zoom.view.flow.libs.ViewFlow
+        android:id="@+id/viewflow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:duplicateParentState="true"
+        app:sidebuffer="1" >
+    </zoom.view.flow.libs.ViewFlow>
+</FrameLayout>
